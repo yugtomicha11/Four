@@ -7,9 +7,9 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in package.json
-RUN sudo npm install
+RUN npm install
 
 
 # Run app when the container launches
-CMD ["npm", "install"]
+CMD ["npm", "start"]
 
