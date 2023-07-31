@@ -11,5 +11,5 @@ RUN sudo npm install
 
 
 # Run app when the container launches
-CMD ["npm", "start"]
+CMD ["npm", "install"]
 
